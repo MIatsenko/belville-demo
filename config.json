@@ -1,0 +1,62 @@
+{
+  "out": "/Users/mihail/delamain/projects/belville-demo",
+  "name": "Belville Dental Centar",
+  "kicker": "Jurija Gagarina 14N · Novi Beograd",
+  "title": "Belville Dental Centar — stomatološka ordinacija na Novom Beogradu",
+  "description": "Stomatološki centar u naselju Belville, Novi Beograd. Od 2010. godine: opšta stomatologija, implantologija, protetika, ortodoncija i dečija stomatologija, uz 3D CBCT dijagnostiku.",
+  "brand": "#2b7c86",
+  "brand2": "#1b5460",
+  "accent": "#a6d34d",
+  "logo": "",
+  "hero": "assets/img/belvilledental-ordinacija.jpg",
+  "h1": "Vaš osmeh, na jednom mestu.",
+  "lead": "Od 2010. u naselju Belville na Novom Beogradu: opšta stomatologija, implantologija, protetika i ortodoncija — uz 3D CBCT dijagnostiku i dogovor lekara različitih specijalnosti o vašoj terapiji. Pacijenti nam dolaze iz zemlje i iz inostranstva.",
+  "phone": "011 6300 955",
+  "phone_link": "+381116300955",
+  "facts": [
+    ["2010.", "godina osnivanja"],
+    ["8", "lekara u timu"],
+    ["10", "oblasti lečenja"],
+    ["08–20h", "pon–čet, subota do 14h"]
+  ],
+  "services_title": "Šta lečimo",
+  "services_lead": "Deset oblasti — od preventive i dečije stomatologije do implantologije, protetike i ortodoncije. Svaku vodi lekar koji se tom oblašću bavi svakodnevno.",
+  "typographic_services": true,
+  "services": [
+    {"title": "Prevencija", "text": "Kontrolni pregledi i profesionalno čišćenje zuba — osnova za zdravlje zuba i desni."},
+    {"title": "Beljenje zuba", "text": "Kućno ili ordinacijsko izbeljivanje, laserskim sistemom Fotona LightWalker."},
+    {"title": "Dentalni implantati", "text": "Nadoknada izgubljenih zuba implantatima, sa planiranjem na 3D snimku."},
+    {"title": "Kompleksne protetske rehabilitacije", "text": "All-on-4 i rehabilitacija cele vilice — privremeni rad već istog dana."},
+    {"title": "Lečenje korena zuba (RCT)", "text": "Lečenje kanala korena, u jednoj ili više seansi, sa savremenom dijagnostikom."},
+    {"title": "Protetika", "text": "Metalokeramičke i bezmetalne krunice, mostovi i viniri, po otisku ili skenu."},
+    {"title": "Dečija stomatologija", "text": "Zalivanje fisura i fluorizacija — preventiva prilagođena najmlađima."},
+    {"title": "Hirurške intervencije", "text": "Oralnohirurški zahvati u ordinaciji, kod specijaliste oralne hirurgije."},
+    {"title": "Ortodoncija", "text": "Terapija ortodontskim aparatima, kod specijaliste ortopedije vilica."},
+    {"title": "Laser u stomatologiji", "text": "Laserski sistem Fotona LightWalker u svakodnevnoj praksi ordinacije."}
+  ],
+  "team": [
+    {"img": "assets/img/dr-vladimir-narancic.jpg", "name": "dr Vladimir Narančić", "role": "Specijalista oralne hirurgije, osnivač centra"},
+    {"img": "assets/img/dr-jelena-jeremic.jpg", "name": "dr Jelena Jeremić", "role": "Doktor stomatologije — restaurativna i estetska stomatologija"},
+    {"img": "assets/img/dr-tajana-narancic.jpg", "name": "dr Tajana Narančić", "role": "Doktor stomatologije — opšta stomatologija, deca i odrasli"},
+    {"img": "assets/img/dr-nevena-markovic.jpg", "name": "dr Nevena Marković", "role": "Doktor stomatologije — endodoncija"},
+    {"img": "assets/img/dr-jovana-narancic.jpg", "name": "dr Jovana Narančić", "role": "Specijalista ortopedije vilica — ortodoncija"},
+    {"img": "assets/img/dr-jelena-dujovic.jpg", "name": "dr Jelena Dujović", "role": "Doktor stomatologije — preventiva i opšta stomatologija"},
+    {"img": "assets/img/dr-marija-gavrilovic.jpg", "name": "dr Marija Gavrilović", "role": "Doktor stomatologije — opšta i estetska stomatologija"},
+    {"img": "assets/img/dr-jovana-ignjatijevic.jpg", "name": "dr Jovana Ignjatijević", "role": "Specijalista endodoncije i restaurativne stomatologije"}
+  ],
+  "gallery": [
+    {"img": "assets/img/ordinacija-cekaonica.jpg", "alt": "Prijem i čekaonica"},
+    {"img": "assets/img/ordinacija-stolica.jpg", "alt": "Ordinacija"},
+    {"img": "assets/img/ordinacija-razgovor.jpg", "alt": "Razgovor sa pacijentom"},
+    {"img": "assets/img/ordinacija-radno-okruzenje.jpg", "alt": "Hodnik i ordinacije"},
+    {"img": "assets/img/ordinacija-pribor.jpg", "alt": "Instrumenti"},
+    {"img": "assets/img/ordinacija-stolica-3.jpg", "alt": "Stomatološka stolica"},
+    {"img": "assets/img/zaposleni-2.jpg", "alt": "Naš tim"},
+    {"img": "assets/img/ordinacija-ulaz.jpg", "alt": "Ulaz u ordinaciju"}
+  ],
+  "address": "Jurija Gagarina 14N/lokal 2, 11070 Novi Beograd",
+  "email": "info@belvilledental.com",
+  "note": "Radno vreme: ponedeljak–četvrtak 08–20, petak 08–19, subota 09–14. Termin se zakazuje telefonom, mejlom ili preko Viber i WhatsApp aplikacije.",
+  "box_text": "Nalazimo se u naselju Belville, 10–15 minuta od centra Beograda i od aerodroma. Pacijentima iz inostranstva pomažemo i sa organizacijom dolaska i smeštajem u neposrednoj blizini ordinacije.",
+  "map_query": "Jurija%20Gagarina%2014N%20Beograd"
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Belville Dental Centar — stomatološka ordinacija na Novom Beogradu</title>
+<meta name="description" content="Stomatološki centar u naselju Belville, Novi Beograd. Od 2010. godine: opšta stomatologija, implantologija, protetika, ortodoncija i dečija stomatologija, uz 3D CBCT dijagnostiku.">
+<style>
+:root{
+  --ink:#14201f; --muted:#5c6a68; --line:#e4e7e3; --bg:#fff; --sand:#f5f3ee;
+  --brand:#2b7c86; --brand-2:#1b5460; --accent:#a6d34d; --r:18px; --wrap:1180px;
+  --font:"Inter","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--font);color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 22px}
+section[id]{scroll-margin-top:86px}
+.hdr{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hdr .wrap{display:flex;align-items:center;gap:12px;min-height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.02em;font-size:15px;line-height:1.2}
+.brand img{width:36px;height:36px;object-fit:contain;flex:0 0 auto}
+.brand span{display:none;font-size:10.5px;font-weight:500;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}
+@media(min-width:700px){.brand span{display:block}}
+.nav{display:none;gap:26px;margin-left:auto;font-size:15px;color:var(--muted)}
+.nav a:hover{color:var(--brand)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;font-weight:600;font-size:15px;border:1px solid transparent;transition:.2s}
+.btn-primary{background:var(--brand);color:#fff}
+.btn-primary:hover{filter:brightness(.92)}
+.btn-ghost{border-color:var(--line);color:var(--ink)}
+.btn-ghost:hover{border-color:var(--brand);color:var(--brand)}
+.hdr .btn{margin-left:auto;font-size:13px;padding:9px 13px;white-space:nowrap}
+@media(min-width:700px){.hdr .btn{font-size:14px;padding:9px 15px}}
+@media(min-width:880px){.nav{display:flex}.hdr .btn{margin-left:0}}
+.hero{position:relative;min-height:clamp(520px,76vh,720px);display:flex;align-items:center;color:#fff;overflow:hidden}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,rgba(10,22,22,.93) 0%,rgba(10,22,22,.74) 46%,rgba(10,22,22,.30) 100%)}
+.hero .wrap{position:relative;z-index:2;padding-top:64px;padding-bottom:64px}
+.eyebrow{display:inline-block;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#a6d34d;margin-bottom:14px}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,5.2vw,60px);line-height:1.08;margin:0 0 16px;max-width:16ch}
+.hero p{font-size:clamp(16px,1.5vw,19px);max-width:52ch;color:#dde6e3;margin:0 0 26px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px}
+.hero .btn-ghost{border-color:rgba(255,255,255,.42);color:#fff}
+.hero .btn-ghost:hover{background:rgba(255,255,255,.12);color:#fff;border-color:#fff}
+.facts{background:var(--brand);color:#eaf2ef}
+.facts .wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:rgba(255,255,255,.14);padding:0}
+.fact{background:var(--brand);padding:26px 22px}
+.fact b{display:block;font-family:var(--serif);font-size:clamp(26px,3vw,38px);font-weight:400;color:#fff;line-height:1.1}
+.fact span{font-size:13px;letter-spacing:.04em;color:#a9c4bd}
+@media(min-width:820px){.facts .wrap{grid-template-columns:repeat(4,1fr)}}
+.sec{padding:clamp(56px,7vw,96px) 0}
+.sec-head{max-width:62ch;margin-bottom:38px}
+.sec-head h2{font-family:var(--serif);font-weight:400;font-size:clamp(26px,3.4vw,40px);line-height:1.15;margin:0 0 12px}
+.sec-head p{color:var(--muted);margin:0;font-size:16px}
+.grid-services{display:grid;grid-template-columns:1fr;gap:18px}
+@media(min-width:640px){.grid-services{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:980px){.grid-services{grid-template-columns:repeat(4,1fr)}}
+.card{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff;transition:.25s}
+.card:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(0,0,0,.08)}
+.card img{aspect-ratio:4/3;object-fit:cover;width:100%;background:var(--sand)}
+.card h3{margin:16px 18px 6px;font-size:17px}
+.card p{margin:0 18px 20px;font-size:14.5px;color:var(--muted)}
+.card.noimg{padding:26px 22px 8px;background:var(--sand);border-color:transparent}
+.card.noimg .num{font-family:var(--serif);font-size:15px;color:var(--accent);letter-spacing:.1em}
+.card.noimg h3{margin:10px 0 6px;font-size:18px}
+.card.noimg p{margin:0 0 18px}
+.team{background:var(--sand)}
+.grid-team{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media(min-width:760px){.grid-team{grid-template-columns:repeat(3,1fr)}}
+.person{background:#fff;border-radius:var(--r);overflow:hidden;border:1px solid var(--line)}
+.person img{aspect-ratio:4/5;object-fit:cover;width:100%;object-position:top}
+.person div{padding:14px 16px 18px}
+.person b{display:block;font-size:15.5px}
+.person span{display:block;font-size:13px;color:var(--muted);margin-top:4px;line-height:1.4}
+.grid-gal{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(min-width:820px){.grid-gal{grid-template-columns:repeat(4,1fr)}}
+.grid-gal img{border-radius:14px;aspect-ratio:4/3;object-fit:cover;width:100%}
+.contact{background:var(--brand);color:#eaf2ef}
+.contact h2{font-family:var(--serif);font-weight:400;font-size:clamp(26px,3.4vw,40px);margin:0 0 10px;color:#fff}
+.contact .lead{color:#b7ccc6;max-width:46ch;margin:0 0 28px}
+.cgrid{display:grid;gap:26px}
+@media(min-width:820px){.cgrid{grid-template-columns:1.1fr .9fr;gap:60px}}
+.cline{display:flex;gap:14px;padding:16px 0;border-top:1px solid rgba(255,255,255,.14)}
+.cline:last-child{border-bottom:1px solid rgba(255,255,255,.14)}
+.cline b{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8fb2ab;margin-bottom:3px}
+.cline a,.cline p{margin:0;font-size:17px;color:#fff}
+.box{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:var(--r);padding:26px}
+.box p{margin:0 0 18px;color:#c8d9d4;font-size:15px}
+.box .btn-primary{background:var(--accent);color:#191b14}
+.ftr{background:var(--brand-2);color:#8fb2ab;font-size:13.5px;padding:26px 0}
+.ftr .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
+</style>
+</head>
+<body>
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      
+      <div>Belville Dental Centar<span>Jurija Gagarina 14N · Novi Beograd</span></div>
+    </a>
+    <nav class="nav">
+      <a href="#usluge">Usluge</a>
+      <a href="#tim">Naš tim</a>
+      <a href="#ordinacija">Ordinacija</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn-primary" href="tel:+381116300955">011 6300 955</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <img src="assets/img/belvilledental-ordinacija.jpg" alt="Belville Dental Centar">
+  <div class="wrap">
+    <div class="eyebrow">Jurija Gagarina 14N · Novi Beograd</div>
+    <h1>Vaš osmeh, na jednom mestu.</h1>
+    <p>Od 2010. u naselju Belville na Novom Beogradu: opšta stomatologija, implantologija, protetika i ortodoncija — uz 3D CBCT dijagnostiku i dogovor lekara različitih specijalnosti o vašoj terapiji. Pacijenti nam dolaze iz zemlje i iz inostranstva.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="tel:+381116300955">Zakažite pregled</a>
+      <a class="btn btn-ghost" href="#tim">Upoznajte tim</a>
+    </div>
+  </div>
+</section>
+
+<section class="facts">
+  <div class="wrap">
+    <div class="fact"><b>2010.</b><span>godina osnivanja</span></div>
+    <div class="fact"><b>8</b><span>lekara u timu</span></div>
+    <div class="fact"><b>10</b><span>oblasti lečenja</span></div>
+    <div class="fact"><b>08–20h</b><span>pon–čet, subota do 14h</span></div>
+  </div>
+</section>
+<section class="sec" id="usluge"><div class="wrap">
+<div class="sec-head"><h2>Šta lečimo</h2><p>Deset oblasti — od preventive i dečije stomatologije do implantologije, protetike i ortodoncije. Svaku vodi lekar koji se tom oblašću bavi svakodnevno.</p></div>
+<div class="grid-services typo">
+<article class="card noimg"><div class="num">01</div><h3>Prevencija</h3><p>Kontrolni pregledi i profesionalno čišćenje zuba — osnova za zdravlje zuba i desni.</p></article>
+<article class="card noimg"><div class="num">02</div><h3>Beljenje zuba</h3><p>Kućno ili ordinacijsko izbeljivanje, laserskim sistemom Fotona LightWalker.</p></article>
+<article class="card noimg"><div class="num">03</div><h3>Dentalni implantati</h3><p>Nadoknada izgubljenih zuba implantatima, sa planiranjem na 3D snimku.</p></article>
+<article class="card noimg"><div class="num">04</div><h3>Kompleksne protetske rehabilitacije</h3><p>All-on-4 i rehabilitacija cele vilice — privremeni rad već istog dana.</p></article>
+<article class="card noimg"><div class="num">05</div><h3>Lečenje korena zuba (RCT)</h3><p>Lečenje kanala korena, u jednoj ili više seansi, sa savremenom dijagnostikom.</p></article>
+<article class="card noimg"><div class="num">06</div><h3>Protetika</h3><p>Metalokeramičke i bezmetalne krunice, mostovi i viniri, po otisku ili skenu.</p></article>
+<article class="card noimg"><div class="num">07</div><h3>Dečija stomatologija</h3><p>Zalivanje fisura i fluorizacija — preventiva prilagođena najmlađima.</p></article>
+<article class="card noimg"><div class="num">08</div><h3>Hirurške intervencije</h3><p>Oralnohirurški zahvati u ordinaciji, kod specijaliste oralne hirurgije.</p></article>
+<article class="card noimg"><div class="num">09</div><h3>Ortodoncija</h3><p>Terapija ortodontskim aparatima, kod specijaliste ortopedije vilica.</p></article>
+<article class="card noimg"><div class="num">10</div><h3>Laser u stomatologiji</h3><p>Laserski sistem Fotona LightWalker u svakodnevnoj praksi ordinacije.</p></article>
+</div>
+</div></section>
+<section class="sec team" id="tim"><div class="wrap">
+<div class="sec-head"><h2>Naš tim</h2><p>Lekari koji vode lečenje od prvog pregleda do kontrole.</p></div>
+<div class="grid-team">
+<article class="person"><img src="assets/img/dr-vladimir-narancic.jpg" alt="dr Vladimir Narančić"><div><b>dr Vladimir Narančić</b><span>Specijalista oralne hirurgije, osnivač centra</span></div></article>
+<article class="person"><img src="assets/img/dr-jelena-jeremic.jpg" alt="dr Jelena Jeremić"><div><b>dr Jelena Jeremić</b><span>Doktor stomatologije — restaurativna i estetska stomatologija</span></div></article>
+<article class="person"><img src="assets/img/dr-tajana-narancic.jpg" alt="dr Tajana Narančić"><div><b>dr Tajana Narančić</b><span>Doktor stomatologije — opšta stomatologija, deca i odrasli</span></div></article>
+<article class="person"><img src="assets/img/dr-nevena-markovic.jpg" alt="dr Nevena Marković"><div><b>dr Nevena Marković</b><span>Doktor stomatologije — endodoncija</span></div></article>
+<article class="person"><img src="assets/img/dr-jovana-narancic.jpg" alt="dr Jovana Narančić"><div><b>dr Jovana Narančić</b><span>Specijalista ortopedije vilica — ortodoncija</span></div></article>
+<article class="person"><img src="assets/img/dr-jelena-dujovic.jpg" alt="dr Jelena Dujović"><div><b>dr Jelena Dujović</b><span>Doktor stomatologije — preventiva i opšta stomatologija</span></div></article>
+<article class="person"><img src="assets/img/dr-marija-gavrilovic.jpg" alt="dr Marija Gavrilović"><div><b>dr Marija Gavrilović</b><span>Doktor stomatologije — opšta i estetska stomatologija</span></div></article>
+<article class="person"><img src="assets/img/dr-jovana-ignjatijevic.jpg" alt="dr Jovana Ignjatijević"><div><b>dr Jovana Ignjatijević</b><span>Specijalista endodoncije i restaurativne stomatologije</span></div></article>
+</div></div></section>
+<section class="sec" id="ordinacija"><div class="wrap">
+<div class="sec-head"><h2>Ordinacija</h2><p>Prostor u kojem radimo.</p></div>
+<div class="grid-gal">
+<img src="assets/img/ordinacija-cekaonica.jpg" alt="Prijem i čekaonica">
+<img src="assets/img/ordinacija-stolica.jpg" alt="Ordinacija">
+<img src="assets/img/ordinacija-razgovor.jpg" alt="Razgovor sa pacijentom">
+<img src="assets/img/ordinacija-radno-okruzenje.jpg" alt="Hodnik i ordinacije">
+<img src="assets/img/ordinacija-pribor.jpg" alt="Instrumenti">
+<img src="assets/img/ordinacija-stolica-3.jpg" alt="Stomatološka stolica">
+<img src="assets/img/zaposleni-2.jpg" alt="Naš tim">
+<img src="assets/img/ordinacija-ulaz.jpg" alt="Ulaz u ordinaciju">
+</div></div></section>
+
+<section class="sec contact" id="kontakt">
+  <div class="wrap cgrid">
+    <div>
+      <h2>Kontakt</h2>
+      <p class="lead">Radno vreme: ponedeljak–četvrtak 08–20, petak 08–19, subota 09–14. Termin se zakazuje telefonom, mejlom ili preko Viber i WhatsApp aplikacije.</p>
+      <div class="cline"><div><b>Adresa</b><p>Jurija Gagarina 14N/lokal 2, 11070 Novi Beograd</p></div></div><div class="cline"><div><b>Telefon</b><a href="tel:+381116300955">011 6300 955</a></div></div><div class="cline"><div><b>E-pošta</b><a href="mailto:info@belvilledental.com">info@belvilledental.com</a></div></div>
+    </div>
+    <div class="box">
+      <p>Nalazimo se u naselju Belville, 10–15 minuta od centra Beograda i od aerodroma. Pacijentima iz inostranstva pomažemo i sa organizacijom dolaska i smeštajem u neposrednoj blizini ordinacije.</p>
+      <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&amp;query=Jurija%20Gagarina%2014N%20Beograd" target="_blank" rel="noopener">Otvori mapu</a>
+    </div>
+  </div>
+</section>
+<footer class="ftr"><div class="wrap">
+  <span>© Belville Dental Centar, Jurija Gagarina 14N/lokal 2, 11070 Novi Beograd</span>
+  <span>Sadržaj sajta nije javna ponuda.</span>
+</div></footer>
+</body>
+</html>
