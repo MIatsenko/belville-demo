@@ -79,6 +79,24 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,5.2vw,60px);lin
 .grid-gal{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
 @media(min-width:820px){.grid-gal{grid-template-columns:repeat(4,1fr)}}
 .grid-gal img{border-radius:14px;aspect-ratio:4/3;object-fit:cover;width:100%}
+[hidden]{display:none !important}
+.booksec{background:var(--sand)}
+.bgrid{display:grid;gap:26px}
+@media(min-width:860px){.bgrid{grid-template-columns:1fr 1fr;gap:56px;align-items:start}}
+.binfo h2{font-family:var(--serif);font-weight:400;font-size:clamp(26px,3.4vw,40px);line-height:1.15;margin:0 0 12px}
+.binfo p{color:var(--muted);margin:0 0 18px;font-size:16px;max-width:44ch}
+.binfo .cline{border-top:1px solid var(--line);border-bottom:0;padding:14px 0 0}
+.binfo .cline b{color:#8a9795}
+.binfo .cline a,.binfo .cline p{font-size:16px;color:var(--ink);font-weight:600}
+.book{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.book h3{font-family:var(--serif);font-weight:400;font-size:22px;margin:0 0 6px}
+.book .book-lead{color:var(--muted);font-size:14.5px;margin:0 0 18px}
+.book label{display:block;font-size:12.5px;color:var(--muted);letter-spacing:.02em;margin:0 0 12px}
+.book input,.book select{width:100%;margin-top:6px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);font:inherit;font-size:15px}
+.book input:focus,.book select:focus{outline:2px solid color-mix(in srgb,var(--brand) 45%,#fff);border-color:var(--brand)}
+.book .btn{width:100%;justify-content:center;margin-top:8px;border:0;cursor:pointer}
+.book .book-ok h3{color:var(--brand)}
+.book .book-ok p{color:var(--muted);margin:0;font-size:15px}
 .contact{background:var(--brand);color:#eaf2ef}
 .contact h2{font-family:var(--serif);font-weight:400;font-size:clamp(26px,3.4vw,40px);margin:0 0 10px;color:#fff}
 .contact .lead{color:#b7ccc6;max-width:46ch;margin:0 0 28px}
@@ -106,6 +124,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,5.2vw,60px);lin
       <a href="#usluge">Usluge</a>
       <a href="#tim">Naš tim</a>
       <a href="#ordinacija">Ordinacija</a>
+      <a href="#zakazivanje">Zakazivanje</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
     <a class="btn btn-primary" href="tel:+381116300955">011 6300 955</a>
@@ -119,7 +138,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,5.2vw,60px);lin
     <h1>Vaš osmeh, na jednom mestu.</h1>
     <p>Od 2010. u naselju Belville na Novom Beogradu: opšta stomatologija, implantologija, protetika i ortodoncija — uz 3D CBCT dijagnostiku i dogovor lekara različitih specijalnosti o vašoj terapiji. Pacijenti nam dolaze iz zemlje i iz inostranstva.</p>
     <div class="hero-cta">
-      <a class="btn btn-primary" href="tel:+381116300955">Zakažite pregled</a>
+      <a class="btn btn-primary" href="#zakazivanje">Zakažite pregled</a>
       <a class="btn btn-ghost" href="#tim">Upoznajte tim</a>
     </div>
   </div>
@@ -130,7 +149,7 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,5.2vw,60px);lin
     <div class="fact"><b>2010.</b><span>godina osnivanja</span></div>
     <div class="fact"><b>8</b><span>lekara u timu</span></div>
     <div class="fact"><b>10</b><span>oblasti lečenja</span></div>
-    <div class="fact"><b>08–20h</b><span>pon–čet, subota do 14h</span></div>
+    <div class="fact"><b>08–20h</b><span>pon–čet · subota 09–14</span></div>
   </div>
 </section>
 <section class="sec" id="usluge"><div class="wrap">
@@ -173,11 +192,37 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,5.2vw,60px);lin
 <img src="assets/img/ordinacija-ulaz.jpg" alt="Ulaz u ordinaciju">
 </div></div></section>
 
+<section class="sec booksec" id="zakazivanje">
+  <div class="wrap bgrid">
+    <div class="binfo">
+      <h2>Zakažite svoj termin</h2>
+      <p>Dovoljno je da ostavite broj telefona — pozovemo vas u toku radnog dana i dogovorimo termin koji vam odgovara. Prvi pregled obuhvata razgovor, digitalni snimak i plan terapije sa predlogom cene.</p>
+      <div class="cline"><div><b>Telefon</b><a href="tel:+381116300955">011 6300 955</a></div></div>
+      <div class="cline"><div><b>Radno vreme</b><p>pon–čet 08–20 · petak 08–19 · subota 09–14</p></div></div>
+    </div>
+    <form class="book" action="#" method="post" novalidate>
+      <div class="book-fields">
+        <h3>Zahtev za termin</h3>
+        <p class="book-lead">Ostavite ime i broj telefona — javićemo se u toku radnog dana da potvrdimo termin.</p>
+        <label>Ime i prezime<input type="text" name="name" autocomplete="name" placeholder="Ime i prezime" required></label>
+        <label>Telefon<input type="tel" name="phone" autocomplete="tel" placeholder="06x xxx xxxx" required></label>
+        <label>Usluga<select name="service"><option>Prevencija</option><option>Beljenje zuba</option><option>Dentalni implantati</option><option>Kompleksne protetske rehabilitacije</option><option>Lečenje korena zuba (RCT)</option><option>Protetika</option><option>Dečija stomatologija</option><option>Hirurške intervencije</option><option>Ortodoncija</option><option>Laser u stomatologiji</option></select></label>
+        <label>Željeni termin<input type="date" name="when"></label>
+        <button class="btn btn-primary" type="submit">Pošaljite zahtev</button>
+      </div>
+      <div class="book-ok" hidden>
+        <h3>Hvala na poverenju!</h3>
+        <p>Vaš zahtev je primljen. Javićemo se telefonom da potvrdimo termin koji vam odgovara.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
 <section class="sec contact" id="kontakt">
   <div class="wrap cgrid">
     <div>
       <h2>Kontakt</h2>
-      <p class="lead">Radno vreme: ponedeljak–četvrtak 08–20, petak 08–19, subota 09–14. Termin se zakazuje telefonom, mejlom ili preko Viber i WhatsApp aplikacije.</p>
+      <p class="lead">Radno vreme: ponedeljak–četvrtak 08–20, petak 08–19, subota 09–14. Termin možete zakazati telefonom, preko forme iznad, mejlom ili Viber i WhatsApp porukom.</p>
       <div class="cline"><div><b>Adresa</b><p>Jurija Gagarina 14N/lokal 2, 11070 Novi Beograd</p></div></div><div class="cline"><div><b>Telefon</b><a href="tel:+381116300955">011 6300 955</a></div></div><div class="cline"><div><b>E-pošta</b><a href="mailto:info@belvilledental.com">info@belvilledental.com</a></div></div>
     </div>
     <div class="box">
@@ -190,5 +235,27 @@ h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,5.2vw,60px);lin
   <span>© Belville Dental Centar, Jurija Gagarina 14N/lokal 2, 11070 Novi Beograd</span>
   <span>Sadržaj sajta nije javna ponuda.</span>
 </div></footer>
+<script>
+(function () {
+  document.querySelectorAll('form.book').forEach(function (f) {
+    f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var tel = f.querySelector('[name="phone"]');
+      var digits = tel ? tel.value.replace(/[^0-9]/g, '') : '';
+      if (digits.length < 6) {
+        if (tel) { tel.style.borderColor = '#c9463c'; tel.focus(); }
+        return;
+      }
+      var fields = f.querySelector('.book-fields');
+      var ok = f.querySelector('.book-ok');
+      if (fields && ok) {
+        fields.setAttribute('hidden', '');
+        ok.removeAttribute('hidden');
+        ok.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      }
+    });
+  });
+})();
+</script>
 </body>
 </html>

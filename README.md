@@ -15,6 +15,8 @@ da izgleda, pre bilo kakvog dogovora.
 - deset oblasti lečenja, od preventive i dečije stomatologije do implantologije i ortodoncije;
 - tim od osam lekara sa fotografijama i specijalnostima;
 - galerija ordinacije;
+- **forma za zakazivanje termina** (ime, telefon, usluga, željeni datum) sa potvrdom posle slanja —
+  u demo verziji potvrda je prikaz na stranici; u pravoj verziji zahtev ide na mejl ordinacije;
 - kontakt blok sa radnim vremenom, adresom i linkom na mapu.
 
 ## Tehnički

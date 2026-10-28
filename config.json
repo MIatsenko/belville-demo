@@ -17,8 +17,12 @@
     ["2010.", "godina osnivanja"],
     ["8", "lekara u timu"],
     ["10", "oblasti lečenja"],
-    ["08–20h", "pon–čet, subota do 14h"]
+    ["08–20h", "pon–čet · subota 09–14"]
   ],
+  "form": true,
+  "book_title": "Zakažite svoj termin",
+  "book_lead": "Dovoljno je da ostavite broj telefona — pozovemo vas u toku radnog dana i dogovorimo termin koji vam odgovara. Prvi pregled obuhvata razgovor, digitalni snimak i plan terapije sa predlogom cene.",
+  "hours": "pon–čet 08–20 · petak 08–19 · subota 09–14",
   "services_title": "Šta lečimo",
   "services_lead": "Deset oblasti — od preventive i dečije stomatologije do implantologije, protetike i ortodoncije. Svaku vodi lekar koji se tom oblašću bavi svakodnevno.",
   "typographic_services": true,
@@ -56,7 +60,7 @@
   ],
   "address": "Jurija Gagarina 14N/lokal 2, 11070 Novi Beograd",
   "email": "info@belvilledental.com",
-  "note": "Radno vreme: ponedeljak–četvrtak 08–20, petak 08–19, subota 09–14. Termin se zakazuje telefonom, mejlom ili preko Viber i WhatsApp aplikacije.",
+  "note": "Radno vreme: ponedeljak–četvrtak 08–20, petak 08–19, subota 09–14. Termin možete zakazati telefonom, preko forme iznad, mejlom ili Viber i WhatsApp porukom.",
   "box_text": "Nalazimo se u naselju Belville, 10–15 minuta od centra Beograda i od aerodroma. Pacijentima iz inostranstva pomažemo i sa organizacijom dolaska i smeštajem u neposrednoj blizini ordinacije.",
   "map_query": "Jurija%20Gagarina%2014N%20Beograd"
 }
